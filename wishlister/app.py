@@ -65,9 +65,9 @@ def sendMail():
      This person has suggested a  of things that would make a nice Christmas Gift.\n
      And shhh!! Keep this secret!'''
 
- for y in participant
-  i = participants.index(y)
-  receipt = [pairs[y[0]]]
+ for n in participant
+  i = participants.index(n)
+  receipt = [pairs[n[0]]]
   gifttext = """Info about recipient:
   Name : %s
   Address:%s
