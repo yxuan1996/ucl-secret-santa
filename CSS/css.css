@@ -6,16 +6,16 @@
 
 #p1 {
   text-align: center;
-  color: firebrick;
+  color: #FF4500;
   font-size: 50px;
 }
 .p2 {
   text-align: center;
-  color: cornflowerblue;
+  color: #FFFFFF;
   font-size: 20px
 }
 ul {
-  color: cornflowerblue;
+  color: #FFFFFF;
   width: 25%;
   margin-left: auto;
   margin-right: auto;
@@ -26,5 +26,5 @@ body {
 .opacity{
   background-color: #000000;
   padding:25px;
-  opacity: 0.65;
+  background: rgba(0, 0, 0, 0.5);
 }
