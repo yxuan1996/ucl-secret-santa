@@ -11,15 +11,20 @@
 }
 .p2 {
   text-align: center;
-  color: firebrick;
+  color: cornflowerblue;
   font-size: 20px
 }
 ul {
-  color: firebrick;
+  color: cornflowerblue;
   width: 25%;
   margin-left: auto;
   margin-right: auto;
 }
 body {
   background-image: url("5005922833_9380ff9fa9_o.jpg");
+}
+.opacity{
+  background-color: #000000;
+  padding:25px;
+  opacity: 0.65;
 }
