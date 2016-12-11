@@ -28,3 +28,13 @@ body {
   padding:25px;
   background: rgba(0, 0, 0, 0.5);
 }
+#righttree {
+  position: fixed;
+  bottom: 80px;
+  right: 617px;
+}
+#lefttree {
+  position: fixed;
+  bottom: 80px;
+  right: 864px;
+}

@@ -4,6 +4,7 @@
     <title>Homepage</title>
     <link rel="stylesheet" type="text/css" href="../CSS/css.css">
     <script src="../JS/js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
 
@@ -29,10 +30,17 @@
     <br>
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
-  <div style="display:flex;justify-content:center;align-items:flex-end;">
+  <div id="parent" style="display:flex;justify-content:center;align-items:flex-end;">
     <div>
-      <button class="w3-btn w3-white w3-xxlarge w3-hover-red w3-border w3-border-red w3-round-large" onclick="tologinpage()">Create!</button>
+      <button id="handle" class="w3-btn w3-white w3-xxlarge w3-hover-red w3-border w3-border-red w3-round-large" onclick="tologinpage()">Create!</button>
     </div>
+  </div>
+
+  <div id="righttree">
+    <h1><i class="em em-christmas_tree"></i></h1>
+  </div>
+  <div id="lefttree">
+    <h1><i class="em em-christmas_tree"></i></h1>
   </div>
 
 
