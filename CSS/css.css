@@ -1,0 +1,25 @@
+.headline {
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 40px
+}
+
+#p1 {
+  text-align: center;
+  color: firebrick;
+  font-size: 50px;
+}
+.p2 {
+  text-align: center;
+  color: firebrick;
+  font-size: 20px
+}
+ul {
+  color: firebrick;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-image: url("5005922833_9380ff9fa9_o.jpg");
+}
