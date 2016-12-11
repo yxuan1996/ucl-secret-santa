@@ -65,7 +65,7 @@ def sendMail():
      This person has suggested a  of things that would make a nice Christmas Gift.\n
      And shhh!! Keep this secret!'''
 
- for n in participant
+ for n in participant:
   i = participants.index(n)
   receipt = [pairs[n[0]]]
   gifttext = """Info about recipient:
@@ -83,7 +83,7 @@ def sendMail():
   %s
   %s""" % (sender, receipt, subject,text, giftlist)
 
-  print message
+  print(message)
   server = smtplib.SMTP(relay)
   server.sendmail(sender,receipt,message)
   server.quit()
