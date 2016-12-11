@@ -1,0 +1,30 @@
+.headline {
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 40px
+}
+
+#p1 {
+  text-align: center;
+  color: #FF4500;
+  font-size: 50px;
+}
+.p2 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px
+}
+ul {
+  color: #FFFFFF;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-image: url("5005922833_9380ff9fa9_o.jpg");
+}
+.opacity{
+  background-color: #000000;
+  padding:25px;
+  background: rgba(0, 0, 0, 0.5);
+}
